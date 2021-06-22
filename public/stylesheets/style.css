@@ -1,8 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
+}
+.navbar {
+  background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+  padding: 15px;
+}
+.navbar-nav li {
+  color: #fff;
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: #fff;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars {
+  color: #fff;
+  font-size: 30;
+}
+.navbar-toggler {
+  outline: none;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 220px;
+
+  background-color: var(--light-theme);
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--color);
+  transition: all 0.3s;
+  position: relative;
+
+  text-align: center;
+  overflow: hidden;
+
+  border-radius: 5px;
+  box-shadow: 0 6px 30px -10px rgba(#cccccc, 1);
+}
+h1 {
+  font-size: 24px;
+  text-shadow: -1px -1px #eee, 1px 1px #888, -3px 0 4px #000;
+  font-family: 'Segoe print', Arial, Helvetica, sans-serif;
+  color: #ccc;
+  padding: 16px;
+  font-weight: lighter;
+  -moz-box-shadow: 2px 2px 6px #888;
+  -webkit-box-shadow: 2px 2px 6px #888;
+  box-shadow: 2px 2px 6px #888;
+  text-align: center;
+  display: inline;
+  line-height: 92px;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 2em;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.checked {
+  color: orange;
 }
