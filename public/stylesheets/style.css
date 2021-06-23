@@ -1,8 +1,10 @@
 * {
-  padding: 4px;
+  padding: 0%;
 }
 body {
-  font-family: sans-serif;
+  padding: 30px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  background-color: #ccc;
 }
 .navbar {
   background-image: linear-gradient(to right, #bdc3c7, #2c3e50);

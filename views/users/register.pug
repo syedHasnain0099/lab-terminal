@@ -5,10 +5,10 @@ block content
   form(action="/register",method="post")
         .form-group
             label(for="name") Name
-            input#name(type="text", class="form-control", name="name", placeholder="Name(Alphabets only)", required)
+            input#name(type="text", class="form-control", onkeypress="return /[a-z]/i.test(event.key)",name="name", placeholder="Name(Alphabets only)", required)
         .form-group
             label(for="email") Email
-            input#email(type="text", class="form-control", name="email", required)
+            input#email(type="email", class="form-control", name="email", required)
         .form-group
             label(for="password") Password
             input#price(type="password", class="form-control", name="password", minlength="8", required)
